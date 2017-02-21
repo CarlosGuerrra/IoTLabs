@@ -69,7 +69,7 @@ Use `iot-sample` as the value of `{resource group name}` if you didn't change th
 * Get the IoT hub connection string by running the following Azure CLI command:
 
 ```bash
-azure iothub show-connection-string --name {my hub name} -g iot-sample
+azure iothub connectionstring show {my hub name}  iot-sample
 ```
 
 `{my hub name}` is the name that you specified when you created your IoT hub and registered Pi.
